@@ -399,11 +399,6 @@ a {
     margin-bottom: 1rem;
 }
 
-.card-header h4 {
-    /* margin-right: auto; Removed to bring tags closer */
-    /* Pushes all tags to the right */
-}
-
 .tech-tag {
     font-size: 0.75rem;
     background: var(--bg-color);
@@ -483,6 +478,108 @@ a {
     font-size: 1.5rem;
 }
 
+/* Responsive tweaks */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 1.25rem;
+    }
+
+    .section {
+        padding: 2.5rem 0;
+    }
+
+    .hero .name {
+        font-size: 2.8rem;
+    }
+
+    .hero .title {
+        font-size: 1.25rem;
+    }
+
+    .hero-profile-row {
+        gap: 1.25rem;
+    }
+
+    .personal-info {
+        font-size: 0.95rem !important;
+        line-height: 1.4 !important;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .game-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-image-container {
+        height: 280px;
+    }
+
+    .game-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .stack-category {
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .section {
+        padding: 2rem 0;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+
+    .hero .name {
+        font-size: 2.2rem;
+    }
+
+    .hero .title {
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main-image-container {
+        height: 220px;
+    }
+
+    .game-gallery {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-links {
+        gap: 1rem;
+    }
+}
+
 /* PRINT STYLES - A3 optimization */
 @media print {
     @page {
@@ -493,6 +590,7 @@ a {
     body {
         background: white;
         color: black;
+        print-color-adjust: exact;
         -webkit-print-color-adjust: exact;
     }
 
