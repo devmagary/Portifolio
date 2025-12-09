@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Thauan Sena Silva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HERO SECTION (Page 1 start) -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-profile-row">
+                    <img src="assets/profile.png" alt="Foto de Perfil de Thauan Silva" class="profile-img">
+                    <div class="hero-text-content">
+                        <h1 class="name">Thauan Silva</h1>
+                        <h2 class="title">Desenvolvedor Full Stack & Game Developer</h2>
+                    </div>
+                </div>
+                <!-- <p class="tagline">"Transformando lógica em soluções eficientes e ideias em experiências imersivas."</p> -->
+
+                <div class="hero-buttons no-print">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <button onclick="window.print()" class="btn btn-secondary"><i class="fas fa-download"></i> Salvar
+                        como PDF</button>
+                </div>
+
+                <div class="contact-brief print-only">
+                    <span><i class="fab fa-github"></i> github.com/devmagary</span>
+                    <span><i class="fas fa-gamepad"></i> devmagary.itch.io</span>
+                    <span><i class="fas fa-envelope"></i> dev.magary@gmail.com</span>
+                    <span><i class="fab fa-linkedin"></i> linkedin.com/in/devmagary</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section">
+        <div class="container">
+            <h3 class="section-title">Sobre Mim</h3>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Thauan Silva é desenvolvedor e professor de História na Educação Básica. Busca constantemente
+                        soluções tecnológicas para o ambiente escolar e o dia a dia, desde sistemas web até jogos de
+                        RPG, adventure e puzzles. Com dupla formação em <strong>Licenciatura em História</strong> e
+                        <strong>Análise de Sistemas</strong>, seu objetivo é transformar a sala de aula em um espaço
+                        lúdico e rico em aprendizagem.
+                    </p>
+                    <p>
+                        Foi idealizador, programador e designer de <strong>"Em Busca da Terra sem Males"</strong>, jogo
+                        educativo para Windows e Android que destaca o protagonismo indígena na Bahia Colonial. O
+                        projeto foi premiado pela <strong>Fundação Pedro Calmon</strong> através da Lei Aldir Blanc.
+                    </p>
+                    <p>
+                        Durante sua graduação na <strong>Universidade Federal do Recôncavo da Bahia (UFRB)</strong>,
+                        pesquisou o uso de games no ensino e hoje aplica esse conhecimento da programação ao
+                        desenvolvimento de enredo e jogabilidade, em projetos pessoais e profissionais.
+                    </p>
+                </div>
+                <div class="tech-stack">
+                    <div class="stack-category">
+                        <h4><i class="fas fa-code"></i> Desenvolvimento</h4>
+                        <div class="tags">
+                            <span>Java</span><span>Python</span><span>TypeScript</span><span>Node.js</span><span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="stack-category">
+                        <h4><i class="fas fa-gamepad"></i> Game Dev</h4>
+                        <div class="tags">
+                            <span>Unity</span><span>Godot</span><span>RPG
+                                Maker</span><span>C#</span><span>GDScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education section">
+        <div class="container">
+            <h3 class="section-title">Histórico de Educação</h3>
+            <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
+                
+                <!-- Education Column -->
+                <div class="stack-category">
+                    <h4><i class="fas fa-graduation-cap"></i> Educação</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem;">
+                        <li>
+                            <strong>Análise de Sistemas da Informação</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">Estácio | Jun 2023 – Jul 2025</span>
+                        </li>
+                        <li>
+                            <strong>Licenciatura em História</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">UFRB | Set 2015 – Mai 2021</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Courses Column -->
+                <div class="stack-category">
+                    <h4><i class="fas fa-book-open"></i> Cursos</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem;">
+                        <li>
+                            <strong>Games com Unity 3D</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">GamesIndie | 2025</span><br>
+                            <span style="font-size: 0.85rem;">Curso de desenvolvimento de games em Unity.</span>
+                        </li>
+                        <li>
+                            <strong>Criando meu primeiro jogo digital</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">Cursa | 2025</span><br>
+                            <span style="font-size: 0.85rem;">Curso de game design.</span>
+                        </li>
+                        <li>
+                            <strong>Curso completo de programação de jogos com Unity</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">Cursa | 2025</span><br>
+                            <span style="font-size: 0.85rem;">Curso de desenvolvimento de games em Unity.</span>
+                        </li>
+                        <li>
+                            <strong>Introdução à Programação de Jogos em C# e Unity</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">Crie Seus Jogos | 2025</span><br>
+                            <span style="font-size: 0.85rem;">Curso de desenvolvimento de games em Unity utilizando o C# para script.</span>
+                        </li>
+                        <li>
+                            <strong>Curso de Programação Afirmativo FullStack</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">Recode | 2022 - 2023</span><br>
+                            <span style="font-size: 0.85rem;">Curso de desenvolvimento FullStack afirmativo para pessoas Negras e da comunidade LGTQI+.</span>
+                        </li>
+                        <li>
+                            <strong>Python para Processamento de Linguagem Natural</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">USP | 2021</span><br>
+                            <span style="font-size: 0.85rem;">Edição Comemorativa dos 50 anos do ICMC.</span>
+                        </li>
+                        <li>
+                            <strong>Introdução a computação e programação</strong><br>
+                            <span style="font-size: 0.9rem; color: #64748b;">USP | 2021</span><br>
+                            <span style="font-size: 0.85rem;">Curso Introdutorio de desenvolvimento em Python.</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL SECTION -->
+    <section class="professional section">
+        <div class="container">
+            <h3 class="section-title">Experiência Profissional</h3>
+            <div class="stack-category" style="max-width: 100%;">
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: 2rem;">
+                    <li>
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                            <h4 style="margin: 0; font-size: 1.1rem;"><i class="fas fa-briefcase" style="margin-right: 0.5rem; color: var(--accent-color);"></i> Desenvolvedor e Roteirista de Jogos Educativos</h4>
+                            <span style="font-size: 0.9rem; color: #64748b;">Fundação Pedro Calmon | Jan 2021 – Jan 2022</span>
+                        </div>
+                        <ul style="list-style: disc; padding-left: 1.5rem; color: #475569; font-size: 0.95rem;">
+                            <li>Criação e desenvolvimento de jogos educativos com foco em diferentes áreas do conhecimento.</li>
+                            <li>Elaboração de roteiros e narrativas para tornar o aprendizado mais interativo e divertido.</li>
+                            <li>Colaboração com equipes multidisciplinares para garantir a qualidade pedagógica e técnica dos jogos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                            <h4 style="margin: 0; font-size: 1.1rem;"><i class="fas fa-chalkboard-teacher" style="margin-right: 0.5rem; color: var(--accent-color);"></i> Professor de História (Residência Pedagógica)</h4>
+                            <span style="font-size: 0.9rem; color: #64748b;">UFRB | Ago 2018 – Jan 2020</span>
+                        </div>
+                        <ul style="list-style: disc; padding-left: 1.5rem; color: #475569; font-size: 0.95rem;">
+                            <li>Atuação como residente pedagógico, aprofundando a prática docente sob a supervisão de professores experientes.</li>
+                            <li>Desenvolvimento e implementação de projetos pedagógicos inovadores.</li>
+                            <li>Participação em reuniões pedagógicas e atividades de formação continuada.</li>
+                            <li>Acompanhamento individualizado do progresso dos alunos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                            <h4 style="margin: 0; font-size: 1.1rem;"><i class="fas fa-chalkboard-teacher" style="margin-right: 0.5rem; color: var(--accent-color);"></i> Professor de História (PIBID)</h4>
+                            <span style="font-size: 0.9rem; color: #64748b;">UFRB | Set 2015 – Fev 2018</span>
+                        </div>
+                        <ul style="list-style: disc; padding-left: 1.5rem; color: #475569; font-size: 0.95rem;">
+                            <li>Participação ativa no Programa Institucional de Bolsas de Iniciação à Docência (PIBID), desenvolvendo atividades de ensino em escolas públicas.</li>
+                            <li>Elaboração e aplicação de planos de aula alinhados ao currículo escolar.</li>
+                            <li>Condução de aulas expositivas e atividades práticas para alunos do ensino fundamental e médio.</li>
+                            <li>Avaliação do aprendizado dos alunos através de diferentes instrumentos.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- GAME PROJECT HIGHLIGHT (Page 2 Focus) -->
+    <section id="projects" class="game-highlight section">
+        <div class="container">
+            <span class="badge" style="display: inline-block; margin-bottom: 0.5rem;">Destaque</span>
+            <h3 class="section-title">Em Busca da Terra sem Males</h3>
+
+            <div class="game-showcase">
+                <div class="main-image-container">
+                    <img src="assets/title_screen.jpg" alt="Tela Título Terra sem Males" class="main-img">
+                </div>
+
+                <div class="game-info-grid">
+                    <div class="game-desc">
+                        <h4>Sobre o Projeto</h4>
+                        <p>
+                            Jogo de aventura ambientado na <strong>Bahia Colonial</strong>, abordando a "Santidade de
+                            Jaguaripe", um movimento histórico de resistência indígena do século XVI.
+                            O projeto foi desenvolvido apartir da premiação e com apoio financeiro da <strong> Aldir Blanc e integra o grupo de
+                            pesquisa</strong> <em>Roda de Histórias</em>.
+                        </p>
+                        <ul class="game-stats">
+                            <li><strong>Gênero:</strong> RPG / Aventura</li>
+                            <li><strong>Plataformas:</strong> PC (Windows), Android</li>
+                            <li><strong>Tech:</strong> RPG Maker, JavaScript</li>
+                            <li><strong>Papel:</strong> Game Design, Roteiro, Programação, Level Design</li>
+                        </ul>
+                        <div class="game-links no-print">
+                            <a href="https://www.rodahistorias.pro.br/post/terra-sem-males-jogo" target="_blank"
+                                class="link-btn"><i class="fas fa-globe"></i> Website</a>
+                            <a href="#" class="link-btn"><i class="fab fa-google-play"></i> Download</a>
+                        </div>
+                    </div>
+                    <div class="game-gallery">
+                        <img src="assets/gameplay_1.png" alt="Gameplay Floresta">
+                        <img src="assets/menu.png" alt="Menu do Jogo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOFTWARE PROJECTS -->
+    <section class="software-projects section">
+        <div class="container">
+            <h3 class="section-title">Apps & Sistemas</h3>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="assets/escola_notada.png" alt="Escola Notada Dashboard" class="project-img">
+                    <div class="card-header">
+                        <h4>Escola Notada</h4>
+                        <span class="tech-tag">Backend - Python/SQL</span>
+                        <span class="tech-tag">Frontend - React</span>
+                    </div>
+                    <p class="project-desc">Sistema de gerenciamento escolar completo com banco de dados.</p>
+                    <div class="card-details">
+                        <p><strong>Desafio:</strong> Gerenciar múltiplas turmas e notas com integridade de dados.</p>
+                        <p><strong>Solução:</strong> Implementação de backend robusto com SQLAlchemy e SQLite, interface
+                            PyQt5 otimizada no modo legado e React para interface moderna.</p>
+                    </div>
+                    <a href="https://github.com/devmagary/Escola-Notada" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> Ver Repositório
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="assets/front.png" alt="Agência de Viagens Dashboard" class="project-img">
+                    <div class="card-header">
+                        <h4>Agência de Viagens</h4>
+                        <span class="tech-tag">Frontend - React</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                    <p class="project-desc">Landing page responsiva e moderna para agência de turismo.</p>
+                    <div class="card-details">
+                        <p><strong>Objetivo:</strong> UI/UX Design, Responsividade, Bootstrap.</p>
+                        <p><strong>Resultado:</strong> Interface atrativa com alta taxa de conversão (simulado).</p>
+                    </div>
+                    <a href="https://github.com/devmagary/agencia-de-viagens-viajantes" class="project-link"
+                        target="_blank">
+                        <i class="fab fa-github"></i> Ver Repositório
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="assets/mercadinho_facil.jpg" alt="Mercadinho Fácil App" class="project-img">
+                    <div class="card-header">
+                        <h4>Mercadinho Fácil</h4>
+                        <span class="tech-tag">Mobile/Web</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Kotlin/Java</span>
+                    </div>
+                    <p class="project-desc">Aplicação para gerenciamento de listas de compras inteligentes.</p>
+                    <div class="card-details">
+                        <p><strong>Stack:</strong> Kotlin/Java / Firebase / Mobile First.</p>
+                        <p><strong>Feature:</strong> Cálculo automático de totais, analise de gastos mensais,
+                            compartilhar lista de compras em modo familia e organização de itens.</p>
+                    </div>
+                    <a href="https://github.com/devmagary/mercadinho-facil" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> Ver Repositório
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACT -->
+    <footer class="footer section">
+        <div class="container">
+            <h3 class="section-title">Vamos Construir Algo Juntos?</h3>
+            <div class="contact-links">
+                <a href="https://github.com/devmagary" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>/devmagary</span>
+                </a>
+                <a href="https://linkedin.com/in/devmagary" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>/in/devmagary</span>
+                </a>
+                <a href="mailto:contato@exemplo.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>dev.magary@gmail.com</span>
+                </a>
+                <a href="https://devmagary.itch.io" class="contact-item">
+                    <i class="fas fa-gamepad"></i>
+                    <span>devmagary.itch.io</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
