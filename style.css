@@ -659,7 +659,23 @@ a {
         box-shadow: none;
         border: none;
         margin: 0;
-        padding: 0.5rem 0;
+        padding: 0.25rem 0;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        break-before: auto;
+        page-break-before: auto;
+    }
+
+    .section-title {
+        margin-bottom: 0.75rem;
+    }
+
+    .game-showcase,
+    .game-info-grid,
+    .game-desc,
+    .game-gallery {
+        break-inside: avoid;
+        page-break-inside: avoid;
     }
 
     .section-title {
@@ -673,7 +689,7 @@ a {
         grid-template-areas:
             "desc main"
             "desc gallery";
-        gap: 1.5rem;
+        gap: 1rem;
         align-items: start;
     }
 
@@ -688,7 +704,7 @@ a {
     .main-image-container {
         grid-area: main;
         height: auto;
-        max-height: 220px;
+        max-height: 180px;
         margin-bottom: 0.5rem;
         border: none;
     }
@@ -697,7 +713,7 @@ a {
         height: 100%;
         width: 100%;
         object-fit: cover;
-        max-height: 220px;
+        max-height: 180px;
         border-radius: 8px;
     }
 
@@ -710,7 +726,7 @@ a {
     }
 
     .game-gallery img {
-        height: 100px;
+        height: 80px;
     }
 
     .game-stats {
